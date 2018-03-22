@@ -50,8 +50,7 @@ public class Persona {
 	/**
 	 * Check the names of 2 persons
 	 * 
-	 * @param Another
-	 *            person
+	 * @param Another person
 	 * @return True if both persons have the same name, false otherwise
 	 */
 	public boolean omonimo(Persona p) {
@@ -61,8 +60,7 @@ public class Persona {
 	/**
 	 * Checks which one of 2 persons is older
 	 * 
-	 * @param Another
-	 *            person
+	 * @param Another person
 	 * @return 1 if the current Person is younger, 0 if both have the same year of
 	 *         birth, -1 if the current person is older
 	 */
@@ -74,8 +72,7 @@ public class Persona {
 	/**
 	 * Checks if the current person is older than everyone in the array
 	 * 
-	 * @param An
-	 *            array of persons
+	 * @param An array of persons
 	 * @return True if oldest, false otherwise
 	 */
 	public boolean olderThan(Persona[] others) {
@@ -94,8 +91,7 @@ public class Persona {
 	/**
 	 * Returns the oldest person in an array
 	 * 
-	 * @param Array
-	 *            of persons
+	 * @param Array of persons
 	 * @return The oldest person if there is one, or null
 	 */
 	public static Persona oldest(Persona[] persone) {
